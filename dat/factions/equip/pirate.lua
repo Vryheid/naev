@@ -48,7 +48,7 @@ function equip_secondaryPirLow ()
    return { "Unicorp Mace Launcher" }
 end
 function equip_secondaryPirMedLow ()
-   return { "Unicorp Fury Launcher", "Unicorp Banshee Launcher" }
+   return { "Unicorp Fury Launcher (Fighter)", "Unicorp Banshee Launcher" }
 end
 
 

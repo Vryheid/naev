@@ -11,6 +11,11 @@
   <armour>1</armour>
   <knockback>0</knockback>
  </dtype>
+ <dtype name="explosive">
+  <shield>0.5</shield>
+  <armour>1.15</armour>
+  <knockback>0</knockback>
+ </dtype>
  <dtype name="explosion_splash">
   <shield>1</shield>
   <armour>1</armour>

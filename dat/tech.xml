@@ -57,11 +57,13 @@
   <item>Heavy Ripper Cannon</item>
   <item>Orion Beam</item>
   <item>Ragnarok Beam</item>
-  <item>Unicorp Fury Launcher</item>
+  <item>Unicorp Fury Launcher (Fighter)</item>
+  <item>Unicorp Fury Launcher (Heavy)</item>
   <item>TeraCom Fury Launcher</item>
   <item>Enygma Systems Turreted Fury Launcher</item>
   <item>Fury Missile</item>
-  <item>Unicorp Headhunter Launcher</item>
+  <item>Unicorp Headhunter Launcher (Fighter)</item>
+  <item>Unicorp Headhunter Launcher (Heavy)</item>
   <item>TeraCom Headhunter Launcher</item>
   <item>Enygma Systems Turreted Headhunter Launcher</item>
   <item>Headhunter Missile</item>
@@ -277,7 +279,7 @@
   <item>Laser Cannon MK1</item>
   <item>Plasma Blaster MK1</item>
   <item>Gauss Gun</item>
-  <item>Unicorp Fury Launcher</item>
+  <item>Unicorp Fury Launcher (Fighter)</item>
   <item>Fury Missile</item>
   <item>Battery</item>
   <item>Solar Panel</item>
@@ -402,13 +404,15 @@
  <tech name="Missiles 1">
   <item>Unicorp Banshee Launcher</item>
   <item>Banshee Rocket</item>
-  <item>Unicorp Fury Launcher</item>
+  <item>Unicorp Fury Launcher (Fighter)</item>
+  <item>Unicorp Fury Launcher (Heavy)</item>
   <item>Fury Missile</item>
   <item>Unicorp Medusa Launcher</item>
   <item>Medusa Missile</item>
  </tech>
  <tech name="Missiles 2">
-  <item>Unicorp Headhunter Launcher</item>
+  <item>Unicorp Headhunter Launcher (Fighter)</item>
+  <item>Unicorp Headhunter Launcher (Heavy)</item>
   <item>Headhunter Missile</item>
   <item>Unicorp Mace Launcher</item>
   <item>Mace Rocket</item>

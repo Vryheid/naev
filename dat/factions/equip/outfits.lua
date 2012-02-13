@@ -69,7 +69,7 @@ function equip_rangedLow ()
    return { "Unicorp Fury Launcher" }
 end
 function equip_rangedMed ()
-   return { "Unicorp Headhunter Launcher" }
+   return { "Unicorp Headhunter Launcher (Heavy)" }
 end
 function equip_rangedHig ()
    return { }
@@ -86,10 +86,10 @@ end
 -- Secondary weapons
 --]]
 function equip_secondaryLow ()
-   return { "Unicorp Fury Launcher", "Unicorp Mace Launcher" }
+   return { "Unicorp Fury Launcher (Fighter)", "Unicorp Mace Launcher" }
 end
 function equip_secondaryMed ()
-   return { "Unicorp Banshee Launcher", "Unicorp Headhunter Launcher" }
+   return { "Unicorp Banshee Launcher", "Unicorp Headhunter Launcher (Heavy)" }
 end
 function equip_secondaryHig ()
    return { }

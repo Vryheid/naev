@@ -38,10 +38,10 @@ function equip_turretEmpHig ()
 end
 -- RANGED
 function equip_rangedEmp ()
-   return { "Unicorp Headhunter Launcher" }
+   return { "Unicorp Headhunter Launcher (Fighter)" }
 end
 function equip_secondaryEmp ()
-   return { "Unicorp Headhunter Launcher" }
+   return { "Unicorp Headhunter Launcher (Fighter)" }
 end
 
 

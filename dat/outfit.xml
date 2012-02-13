@@ -1411,63 +1411,82 @@
 
 
  <!-- Missile Weapons -->
- <outfit name="Unicorp Fury Launcher">
+ <outfit name="Unicorp Fury Launcher (Fighter)">
   <general>
    <slot>weapon</slot>
-   <mass>8</mass>
+   <mass>6</mass>
    <price>25000</price>
    <description>This missile launcher fires Fury class interceptor missiles. It is built out of standard parts, which make it serviceable and efficient.</description>
    <gfx_store>seekerlauncher</gfx_store>
   </general>
   <specific type="launcher" secondary="1">
-   <cpu>4</cpu>
+   <cpu>12</cpu>
    <ammo>Fury Missile</ammo>
-   <delay>4</delay>
-   <amount>20</amount>
-   <lockon>9</lockon>
-   <arc>6</arc>
+   <delay>0.666</delay>
+   <amount>30</amount>
+   <lockon>6</lockon>
+   <arc>10</arc>
    <ew_target>1.5</ew_target>
   </specific>
  </outfit>
- <outfit name="TeraCom Fury Launcher">
+  <outfit name="Unicorp Fury Launcher (Heavy)">
   <general>
    <slot>weapon</slot>
-   <mass>9</mass>
+   <mass>12</mass>
    <price>40000</price>
-   <description>The TeraCom Fury Launcher is a high-performance missile launcher equipped with patented target tracking and missile arming technology, allowing pilots to get a lock on their target faster and more easily than with launchers made by competing brands.</description>
+   <description>This missile launcher fires Fury class interceptor missiles. It is built out of standard parts, which make it serviceable and efficient.</description>
    <gfx_store>seekerlauncher</gfx_store>
   </general>
   <specific type="launcher" secondary="1">
-   <cpu>6</cpu>
+   <cpu>22</cpu>
    <ammo>Fury Missile</ammo>
-   <delay>4</delay>
-   <amount>20</amount>
-   <lockon>7</lockon>
-   <arc>8</arc>
+   <delay>0.666</delay>
+   <amount>60</amount>
+   <lockon>5</lockon>
+   <arc>10</arc>
    <ew_target>1.5</ew_target>
   </specific>
  </outfit>
- <outfit name="Enygma Systems Turreted Fury Launcher">
+  <outfit name="Enygma Systems Turreted Fury Launcher">
   <general>
    <slot>weapon</slot>
-   <mass>30</mass>
-   <price>80000</price>
-   <description>Enygma Systems has developed a turret mounted Fury launcher. It comes at a steep price, but can be a powerful means of discouraging pirate fighters.</description>
+   <license>Medium Weapon License</license>
+   <mass>35</mass>
+   <price>70000</price>
+   <description>This missile launcher fires Fury class interceptor missiles. It is built out of standard parts, which make it serviceable and efficient.</description>
    <gfx_store>seekerlauncher</gfx_store>
   </general>
   <specific type="turret launcher" secondary="1">
-   <cpu>9</cpu>
+   <cpu>32</cpu>
    <ammo>Fury Missile</ammo>
-   <delay>4</delay>
-   <amount>30</amount>
-   <lockon>8</lockon>
+   <delay>0.666</delay>
+   <amount>135</amount>
+   <lockon>4</lockon>
+   <ew_target>1.5</ew_target>
+  </specific>
+ </outfit>   
+ <outfit name="TeraCom Fury Launcher">
+ <general>
+   <slot>weapon</slot>
+   <mass>6.5</mass>
+   <price>42500</price>
+   <description>The TeraCom Fury Launcher is a high-performance missile launcher equipped with patented target tracking and missile arming technology, allowing pilots to get a lock on their target faster and more easily than with launchers made by competing brands.</description> 
+   <gfx_store>seekerlauncher</gfx_store>
+  </general>
+  <specific type="launcher" secondary="1">
+   <cpu>13</cpu>
+   <ammo>Fury Missile</ammo>
+   <delay>0.6</delay>
+   <amount>35</amount>
+   <lockon>4.8</lockon>
+   <arc>10</arc>
    <ew_target>1.5</ew_target>
   </specific>
  </outfit>
  <outfit name="Fury Missile">
   <general>
-   <mass>1</mass>
-   <price>400</price>
+   <mass>0.3</mass>
+   <price>100</price>
    <description>The Fury class interceptor missile is a lightweight missile propelled by a powerful engine, delivering its payload to its target quickly and efficiently. Its high agility come at the cost of destructive power, however, limiting its effectiveness to light, nimble fighters.</description>
    <gfx_store>seeker</gfx_store>
   </general>
@@ -1477,36 +1496,55 @@
    <sound_hit>medexp1</sound_hit>
    <spfx_shield>ExpM</spfx_shield>
    <spfx_armour>ExpM</spfx_armour>
-   <duration blowup="armour">4</duration>
+   <duration blowup="armour">7</duration>
    <thrust>0</thrust>
-   <turn>45</turn>
-   <speed>700</speed>
+   <turn>24</turn>
+   <speed>715</speed>
    <resist>5</resist>
    <damage>
-    <type>impact</type>
+    <type>explosive</type>
     <penetrate>5</penetrate>
-    <physical>40</physical>
+    <physical>35</physical>
     <disable>1</disable>
    </damage>
    <ai>smart</ai>
   </specific>
  </outfit>
- <outfit name="Unicorp Headhunter Launcher">
+  <outfit name="Unicorp Headhunter Launcher (Fighter)">
+  <general>
+   <slot>weapon</slot>
+   <mass>16</mass>
+   <price>50000</price>
+   <description>This launcher fires Headhunter class interceptor missiles. Made to standard specification, this model has been optimized for minimum system strain and maximum compatibility.</description>
+   <gfx_store>headhunterlauncher</gfx_store>
+   <size>light</size>
+  </general>
+  <specific type="launcher" secondary="1">
+   <cpu>18</cpu>
+   <ammo>Headhunter Missile</ammo>
+   <delay>1</delay>
+   <amount>18</amount>
+   <lockon>11</lockon>
+   <arc>10</arc>
+   <ew_target>1</ew_target>
+  </specific>
+ </outfit>
+ <outfit name="Unicorp Headhunter Launcher (Heavy)">
   <general>
    <slot>weapon</slot>
    <license>Medium Weapon License</license>
-   <mass>10</mass>
-   <price>40000</price>
+   <mass>22</mass>
+   <price>80000</price>
    <description>This launcher fires Headhunter class interceptor missiles. Made to standard specification, this model has been optimized for minimum system strain and maximum compatibility.</description>
    <gfx_store>headhunterlauncher</gfx_store>
   </general>
   <specific type="launcher" secondary="1">
-   <cpu>5</cpu>
+   <cpu>25</cpu>
    <ammo>Headhunter Missile</ammo>
-   <delay>5</delay>
-   <amount>15</amount>
-   <lockon>12</lockon>
-   <arc>6</arc>
+   <delay>1</delay>
+   <amount>40</amount>
+   <lockon>10</lockon>
+   <arc>12</arc>
    <ew_target>1</ew_target>
   </specific>
  </outfit>
@@ -1514,35 +1552,36 @@
   <general>
    <slot>weapon</slot>
    <license>Medium Weapon License</license>
-   <mass>10</mass>
-   <price>100000</price>
+   <mass>24</mass>
+   <price>136000</price>
    <description>This is TeraCom's model Headhunter launcher. Though somewhat pricey and demanding on the ship's resources, the patented tracking and missile arming technology allows pilots to fire their missiles before the competition does.</description>
    <gfx_store>headhunterlauncher</gfx_store>
   </general>
   <specific type="launcher" secondary="1">
-   <cpu>8</cpu>
+   <cpu>28</cpu>
    <ammo>Headhunter Missile</ammo>
-   <delay>5</delay>
-   <amount>15</amount>
-   <lockon>9</lockon>
-   <arc>8</arc>
+   <delay>0.9</delay>
+   <amount>46</amount>
+   <lockon>8</lockon>
+   <arc>12</arc>
    <ew_target>1</ew_target>
   </specific>
  </outfit>
  <outfit name="Enygma Systems Turreted Headhunter Launcher">
   <general>
    <slot>weapon</slot>
-   <mass>45</mass>
+   <license>Medium Weapon License</license>
+   <mass>70</mass>
    <price>140000</price>
    <description>These launchers are sometimes employed by cruiser captains whose ships aren't maneouevrable enough to effectively combat enemy fighters and bombers. The punch of the Headhunter missile combined with Enygma Systems' swivel mounted launcher can effectively compensate for any blind spots.</description>
    <gfx_store>headhunterlauncher</gfx_store>
   </general>
   <specific type="turret launcher" secondary="1">
-   <cpu>14</cpu>
+   <cpu>36</cpu>
    <ammo>Headhunter Missile</ammo>
-   <delay>5</delay>
-   <amount>20</amount>
-   <lockon>10</lockon>
+   <delay>1</delay>
+   <amount>70</amount>
+   <lockon>9</lockon>
    <ew_target>1</ew_target>
   </specific>
  </outfit>
@@ -1550,7 +1589,7 @@
   <general>
    <license>Medium Weapon License</license>
    <mass>1</mass>
-   <price>800</price>
+   <price>400</price>
    <description>The Headhunter class interceptor missile is a medium calibre missile that can deal devastating damage to small and medium sized targets, while remaining reasonably fast and agile. Most effective when launched at distant enemies.</description>
    <gfx_store>headhunter</gfx_store>
   </general>
@@ -1560,18 +1599,18 @@
    <sound_hit>medexp0</sound_hit>
    <spfx_shield>ExpM</spfx_shield>
    <spfx_armour>ExpM</spfx_armour>
-   <duration blowup="armour">5</duration>
+   <duration blowup="armour">14</duration>
    <thrust>0</thrust>
    <turn>35</turn>
-   <speed>550</speed>
+   <speed>450</speed>
    <resist>10</resist>
    <damage>
-    <type>impact</type>
-    <penetrate>10</penetrate>
-    <physical>80</physical>
+    <type>explosive</type>
+    <penetrate>35</penetrate>
+    <physical>68</physical>
     <disable>1</disable>
    </damage>
-   <ai>smart</ai>
+   <ai>seek</ai>
   </specific>
  </outfit>
  <outfit name="Unicorp Vengeance Launcher">
